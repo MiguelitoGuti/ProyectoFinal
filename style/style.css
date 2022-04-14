@@ -543,6 +543,10 @@ footer div p{
     .listaComun{
         margin-left: 10px;    
     }
+
+    .lineaSeparador{
+        display: none;
+    }
     
 }
 
@@ -592,6 +596,10 @@ footer div p{
     .listaComun{
         margin-left: 10px;    
     }
+
+    .lineaSeparador{
+        display: none;
+    }
 }
 
 @media screen and (min-width: 1400px) {
@@ -639,6 +647,10 @@ footer div p{
 
     .listaComun{
         margin-left: 10px;    
+    }
+
+    .lineaSeparador{
+        display: none;
     }
 }
 
