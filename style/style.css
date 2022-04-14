@@ -1,0 +1,780 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    position: sticky;
+    top: 0px;
+    background-color:whitesmoke;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+}
+
+
+.titulos2{
+    color:white;
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Faustina', serif;
+    padding-top: 5px;
+    padding-bottom: 40px;
+}
+
+
+.cajaSubNovedades{
+    background-color:white;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: white;
+    transition: all 1s;
+    height: 500px;
+    margin-bottom: 30px;
+}
+
+.padding10{
+    padding-top: 10px;
+}
+
+h5{
+    color:#333333;
+    font-size: 15px;
+    padding: 10px 15px 5px 25px;
+    font-family: 'Lato', sans-serif;
+    text-align: left;
+}
+
+h4{
+    color:#333333;
+    font-size: 20px;
+    padding: 0px 15px 5px 15px;
+    font-family: 'Faustina', serif;
+}
+
+.descripcion{
+    color:#999999;
+    font-size: 16px;
+    padding: 5px 25px 5px 25px;
+    text-align: justify;
+    font-family: 'Faustina', serif;
+}
+
+h6{
+    color:#0F91C3;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    
+}
+
+
+.paddingFotos{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+.descripcionNosotros{
+    color:#333333;
+    font-size: 20px;
+    padding: 5px 25px 5px 25px;
+    text-align: justify;
+    font-family: 'Faustina', serif;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.imagenesClientes{
+    border-style: solid;
+    border-color:gray;
+    transition: all 1s;
+    margin: 15px;
+}
+
+.tamanioCajaContacto{
+    width: 400px;
+    height: 300px;
+}
+
+.cajaServicios{
+    margin: 20px;
+    border-style: solid;
+    border-color:gray;
+    width: 331px;
+    height: 164px;
+    background-color: white;
+    display: inline-block;
+    transition: 5s;
+}
+
+.cajaServicios:hover{
+    animation: animacionServicios 10s;
+}
+
+/*Cambios nuevos*/
+
+.alineacionCentro{
+    text-align: center;
+}
+
+.padding5{
+    padding: 6px;
+}
+
+h2{
+    color:white;
+    font-family:'Montserrat', sans-serif;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.tituloPrincipal{
+    color:#0F91C3;
+    font-family:'Montserrat', sans-serif;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.alineacionMenu{
+    margin: 0px 25px 0px 25px;
+}
+
+.espacioLogo{
+    padding: 2px;
+}
+
+.nav-link{
+    color:white !important;
+    font-weight: bold;
+}
+
+.nav-link:hover{
+    color:#0F91C3 !important;
+}
+     
+.tamanoCarr{
+    height: 300px;
+    text-align: center;
+}
+
+.imagenTamanoCarr{
+    height: 300px;
+    text-align: center;
+}
+
+.fondoPrincipal{
+    background-image: url("../img/Black4Tablet.jpg");
+    /*background-color: #2d3436;
+    background-image: linear-gradient(315deg, #2d3436 0%, #000000 74%);*/
+}
+
+.alineacionIzq{
+    text-align: center;
+}
+
+.alineacionDerecha{
+    text-align: center;
+}  
+
+.botonesLinks{
+    color: #0F91C3;
+    border-style: solid;
+    border-color: #0F91C3;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: #000000;
+    border-radius: 30px;
+}
+
+.botonesLinks:hover{
+    background-color: #0F91C3;
+    color: white;
+}
+
+
+.margenesBotones{
+    margin-top: 10px;
+    margin-bottom: 10px; 
+    text-align: center;
+}
+
+.imagenesSistemas{
+    border: 5px solid rgb(32, 32, 32);
+    margin: 5px;
+    width: 90px;
+    height: 82px;
+    background-color: rgb(32, 32, 32);
+}
+
+.imagenesApps{
+    margin: 3px;
+    width: 50px;
+    height: 50px;
+}
+
+.imagenEquipo{
+    width: 300px;
+    height: 126px;
+}
+
+.colorMenu{
+    background-color: black !important;
+}
+
+.cajaPrincSistemas{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    flex-wrap:wrap;
+    align-items: center;
+}
+
+.cajaPrincSistemasColumn{
+    display: flex;
+    flex-direction:column;
+    justify-content:center;
+    flex-wrap:wrap;
+    align-items: center;
+}
+
+.ulCol{
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    justify-content:space-evenly;
+    list-style-type: none;
+    padding-left: 0px;
+}
+
+.imagenesSistemas:hover{
+    animation: colorBorde 3s;
+}
+
+.tamanioCajaContacto{
+    width: 330px;
+}
+
+.parrafos{
+    padding-bottom: 10px;
+    color:rgb(236, 229, 229);
+    font-size: 24px;
+    font-family: 'Fira Sans Condensed', sans-serif;
+    text-align: center;
+}
+
+.alineacionJust{
+    text-align: justify;
+}
+
+
+/*Footer*/
+
+footer div p{
+    color:dimgray;
+    text-align: justify;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+}
+
+.fondoFooter{
+    background-color:black;
+}
+
+.alineacionCajaFooter{
+    align-self: auto;
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.alineacionSubCajaFooter{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.linksMenu{
+    text-decoration: none;
+    color: dimgray;
+}
+
+.linksMenu:hover{
+    color:#0F91C3 !important;
+}
+
+.alineacionMenuFooter{
+    margin-bottom: 10px;
+}
+
+.tituloBlanco{
+    color:white !important;
+    font-weight: bold;
+    font-size: 16px;
+    font-family:'Montserrat', sans-serif;
+}
+
+.linea{
+    border-style: solid;
+    border-bottom: 3px;
+    border-color:#999999;
+}
+
+.lineaSeparador{
+    border-style:solid;
+    border-bottom: 1px;
+    border-color:#999999;
+}
+
+.cajasRedes{
+    display: flex; 
+    flex-direction: row;
+}
+
+.cajasContacto{
+    width: 180px;
+}
+
+.fuenteFooter{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+}
+
+.iconosContacto{
+    width: 50px;
+    height: 70px;
+    transition: 1s;
+}
+
+.iconosContacto:hover{
+    transform: scale(1.2);
+}
+
+.iconosRedes{
+    transition: 1s;
+}
+
+.iconosRedes:hover{
+    transform: scale(1.2);
+}
+
+@keyframes animacionServicios{
+    0%{
+        background-image: linear-gradient(45deg, #085078, #85d8ce);
+    }
+    50%{
+        border-style: solid;
+        border-width: 5px;
+        border-color:#37b5c0;
+        transform: scale(1.1);
+    }
+}
+
+.imagenesClientes:hover{
+    border-style: solid;
+    border-width: 5px;
+    border-color:#37b5c0;
+    transform: scale(1.1);
+}
+
+.cajasFlexInt{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.colorValores{
+    background-color: rgb(40,43,30);
+}
+
+.cajaValores{
+    margin-top: 10px;
+}
+
+.alineacionCajasValores{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content:space-between;
+}
+
+.listaComun{
+    list-style-type:square;
+    color: rgb(236, 229, 229);
+    font-size: 24px;
+    font-family: 'Fira Sans Condensed', sans-serif;
+    display: block;
+    margin-left: 0px;    
+    text-align: justify;
+}
+
+
+.cajaSubNovedades:hover{
+    transform: scale(1.07);
+}
+
+@keyframes colorBorde{
+    0%{
+        border-right: 5px solid #0F91C3;
+    }
+    25%{
+        border-bottom: 5px solid #0F91C3;
+    }
+    50%{
+        border-left: 5px solid #0F91C3;
+    }
+    75%{
+        border-top: 5px solid #0F91C3;
+    }
+    100%{
+        border: 5px solid #0F91C3;
+    }
+}
+
+@media screen and (min-width: 576px) {
+    .tituloPrincipal{
+        font-size: 32px;
+    }
+
+    h2{
+        font-size: 28px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    .imagenesSistemas{
+        width: 100px;
+        height: 92px;
+    }
+
+    .imagenEquipo{
+        width: 350px;
+        height: 147px;
+    }
+
+
+}
+
+@media screen and (min-width: 768px) {
+    .tituloPrincipal{
+        font-size: 42px;
+    }
+
+    h2{
+        font-size: 38px;
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    .imagenesSistemas{
+        width: 100px;
+        height: 92px;
+    }
+
+    .imagenesApps{
+        width: 66px;
+        height: 66px;
+    }
+
+    .imagenEquipo{
+        width: 400px;
+        height: 168px;
+    }
+
+
+}
+
+@media screen and (min-width: 992px) {
+    .tituloPrincipal{
+        font-size: 52px;
+    }
+
+    h2{
+        font-size: 48px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .alineacionIzq{
+        text-align: left;
+    }
+    
+    .alineacionDerecha{
+        text-align: right;
+    }
+
+    .imagenesSistemas{
+        width: 130px;
+        height: 122px;
+    }
+
+    .imagenesApps{
+        width: 70px;
+        height: 70px;
+    }
+
+    .alineacionSubCajaFooter{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .imagenEquipo{
+        width: 440px;
+        height: 185px;
+    }
+
+    .fondoPrincipal{
+        background-image: url("../img/Black4.jpg");
+    }
+
+    #fondoPoliticas{
+        background-image: url("../img/BlackC.jpg");
+    }
+
+    .listaComun{
+        margin-left: 10px;    
+    }
+    
+}
+
+@media screen and (min-width: 1200px) {
+    .tituloPrincipal{
+        font-size: 62px;
+    }
+
+    h2{
+        font-size: 58px;
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+    .alineacionIzq{
+        text-align: left;
+    }
+    
+    .alineacionDerecha{
+        text-align: right;
+    }
+
+    .imagenesSistemas{
+        width: 150px;
+        height: 142px;
+    }
+
+    .imagenesApps{
+        width: 78px;
+        height: 78px;
+    }
+
+    .alineacionSubCajaFooter{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .imagenEquipo{
+        width: 540px;
+        height: 228px;
+    }
+
+    .fondoPrincipal{
+        background-image: url("../img/Black4.jpg");
+    }   
+
+    .listaComun{
+        margin-left: 10px;    
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    .tituloPrincipal{
+        font-size: 72px;
+    }
+
+    h2{
+        font-size: 68px;
+        padding-top: 70px;
+        padding-bottom: 70px;
+    }
+
+    .alineacionIzq{
+        text-align: left;
+    }
+    
+    .alineacionDerecha{
+        text-align: right;
+    }
+    
+    .imagenesSistemas{
+        width: 176px;
+        height: 168px;
+    }
+
+    .imagenesApps{
+        width: 84px;
+        height: 84px;
+    }
+
+    .alineacionSubCajaFooter{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .imagenEquipo{
+        width: 540px;
+        height: 228px;
+    }
+
+    .fondoPrincipal{
+        background-image: url("../img/Black4.jpg");
+    }   
+
+    .listaComun{
+        margin-left: 10px;    
+    }
+}
+
+/*@media screen and (max-width: 992px) {
+    .alineacionMenu{
+        margin: 0px 25px 0px 25px;
+    }
+
+    .tituloPrincipal{
+        font-size: 24px;
+    }
+
+    .descripcion{
+        color:#999999;
+        font-size: 16px;
+        padding: 5px 25px 5px 25px;
+        text-align: justify;
+        font-family: 'Faustina', serif;
+    }
+
+
+    .cajaPrincSistemas{
+        display: flex;
+        flex-direction: row;
+        justify-content:center;
+        flex-wrap:wrap;
+        align-items: center;
+    }
+
+    .tamanioCajaContacto{
+        width: 330px;
+    }
+
+    .cajaSubNovedades{
+        background-color:white;
+        border-radius: 5px;
+        border-style: solid;
+        border-width: 2px;
+        border-color: white;
+        transition: all 1s;
+        height: 350px;
+        margin-bottom: 30px;
+    }
+
+    .descripcionNosotros{
+        color:#333333;
+        font-size: 18px;
+        padding: 5px 25px 5px 25px;
+        text-align: justify;
+        font-family: 'Faustina', serif;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    
+    .imagenTamanoCarr{
+        width: 275px;
+        height: 300px;
+        text-align: center;
+    }
+
+    .descripcion{
+        color:#999999;
+        font-size: 14px;
+        padding: 5px 25px 5px 25px;
+        text-align: justify;
+        font-family: 'Faustina', serif;
+    }
+
+    .cajaSubNovedades{
+        background-color:white;
+        border-radius: 5px;
+        border-style: solid;
+        border-width: 2px;
+        border-color: white;
+        transition: all 1s;
+        height: 300px;
+        margin-bottom: 30px;
+    }
+
+    .descripcionNosotros{
+        color:#333333;
+        font-size: 16px;
+        padding: 5px 25px 5px 25px;
+        text-align: justify;
+        font-family: 'Faustina', serif;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+
+}
+
+@media screen and (max-width: 576px) {
+    
+    .imagenTamanoCarr{
+        width: 250px;
+        height: 300px;
+        text-align: center;
+    }
+
+    .descripcion{
+        color:#999999;
+        font-size: 12px;
+        padding: 5px 25px 5px 25px;
+        text-align: justify;
+        font-family: 'Faustina', serif;
+    }
+
+    .cajaSubNovedades{
+        background-color:white;
+        border-radius: 5px;
+        border-style: solid;
+        border-width: 2px;
+        border-color: white;
+        transition: all 1s;
+        height: 250px;
+        margin-bottom: 30px;
+    }
+
+    .descripcionNosotros{
+        color:#333333;
+        font-size: 14px;
+        padding: 5px 25px 5px 25px;
+        text-align: justify;
+        font-family: 'Faustina', serif;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+}*/
