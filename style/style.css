@@ -529,6 +529,11 @@ footer div p{
         padding-right: 30px;
     }
 
+    .alineacionContacto{
+        padding-left: 250px;
+        padding-right: 250px;
+    }
+
     .imagenEquipo{
         width: 440px;
         height: 185px;
