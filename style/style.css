@@ -265,6 +265,12 @@ h2{
     text-align: center;
 }
 
+.formatoLabel{
+    color:rgb(236, 229, 229);
+    font-size: 22px;
+    font-family: 'Fira Sans Condensed', sans-serif;
+}
+
 .alineacionJust{
     text-align: justify;
 }
