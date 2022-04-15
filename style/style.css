@@ -160,16 +160,6 @@ h2{
 .nav-link:hover{
     color:#0F91C3 !important;
 }
-     
-.tamanoCarr{
-    height: 300px;
-    text-align: center;
-}
-
-.imagenTamanoCarr{
-    height: 300px;
-    text-align: center;
-}
 
 .fondoPrincipal{
     background-image: url("../img/Black4Tablet.jpg");
