@@ -213,6 +213,11 @@ h2{
     margin: 3px;
     width: 50px;
     height: 50px;
+    filter: grayscale(100%);
+}
+
+.imagenesApps:hover{
+    filter: grayscale(0%);
 }
 
 .imagenEquipo{
@@ -260,14 +265,14 @@ h2{
 .parrafos{
     padding-bottom: 10px;
     color:rgb(236, 229, 229);
-    font-size: 24px;
+    font-size: 18px;
     font-family: 'Fira Sans Condensed', sans-serif;
     text-align: center;
 }
 
 .formatoLabel{
     color:rgb(236, 229, 229);
-    font-size: 22px;
+    font-size: 18px;
     font-family: 'Fira Sans Condensed', sans-serif;
 }
 
@@ -412,7 +417,7 @@ footer div p{
 .listaComun{
     list-style-type:square;
     color: rgb(236, 229, 229);
-    font-size: 24px;
+    font-size: 18px;
     font-family: 'Fira Sans Condensed', sans-serif;
     display: block;
     margin-left: 0px;    
@@ -554,6 +559,19 @@ footer div p{
     .lineaSeparador{
         display: none;
     }
+
+    .parrafos{
+        font-size: 24px;
+    }
+
+    .formatoLabel{
+        font-size: 22px;
+    }
+
+    .listaComun{
+        font-size: 24px;
+    }
+    
     
 }
 
@@ -607,6 +625,18 @@ footer div p{
     .lineaSeparador{
         display: none;
     }
+
+    .parrafos{
+        font-size: 24px;
+    }
+
+    .formatoLabel{
+        font-size: 22px;
+    }
+
+    .listaComun{
+        font-size: 24px;
+    }
 }
 
 @media screen and (min-width: 1400px) {
@@ -658,6 +688,18 @@ footer div p{
 
     .lineaSeparador{
         display: none;
+    }
+
+    .parrafos{
+        font-size: 24px;
+    }
+
+    .formatoLabel{
+        font-size: 22px;
+    }
+
+    .listaComun{
+        font-size: 24px;
     }
 }
 
