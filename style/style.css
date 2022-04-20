@@ -18,54 +18,6 @@ nav{
 }
 
 
-.titulos2{
-    color:white;
-    font-size: 40px;
-    text-align: center;
-    font-family: 'Faustina', serif;
-    padding-top: 5px;
-    padding-bottom: 40px;
-}
-
-
-.cajaSubNovedades{
-    background-color:white;
-    border-radius: 5px;
-    border-style: solid;
-    border-width: 2px;
-    border-color: white;
-    transition: all 1s;
-    height: 500px;
-    margin-bottom: 30px;
-}
-
-.padding10{
-    padding-top: 10px;
-}
-
-h5{
-    color:#333333;
-    font-size: 15px;
-    padding: 10px 15px 5px 25px;
-    font-family: 'Lato', sans-serif;
-    text-align: left;
-}
-
-h4{
-    color:#333333;
-    font-size: 20px;
-    padding: 0px 15px 5px 15px;
-    font-family: 'Faustina', serif;
-}
-
-.descripcion{
-    color:#999999;
-    font-size: 16px;
-    padding: 5px 25px 5px 25px;
-    text-align: justify;
-    font-family: 'Faustina', serif;
-}
-
 h6{
     color:#0F91C3;
     font-family: 'Montserrat', sans-serif;
@@ -73,50 +25,15 @@ h6{
     
 }
 
+h3{
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+}
+
 
 .paddingFotos{
     padding-top: 10px;
     padding-bottom: 10px;
-}
-
-
-.descripcionNosotros{
-    color:#333333;
-    font-size: 20px;
-    padding: 5px 25px 5px 25px;
-    text-align: justify;
-    font-family: 'Faustina', serif;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
-
-.imagenesClientes{
-    transition: 1s;
-}
-
-.imagenesClientes:hover{
-    transform: scale(1.101);
-}
-
-.cardTam{
-    flex: 1 0 24rem;
-	/* Margin value should be half of grid-gap value as margins on flex items don't collapse */
-	margin: 1rem;
-	box-shadow: 0.3rem 0.4rem 0.4rem rgba(0, 0, 0, 0.4);
-	overflow: hidden;
-}
-
-
-.tamanioCajaContacto{
-    width: 400px;
-    height: 300px;
-}
-
-.margen0{
-    padding-right: 0px;
-    padding-left: 0px;
 }
 
 .cajaServicios{
@@ -217,6 +134,13 @@ h2{
     text-align: center;
 }
 
+.paddingBotones{
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+
 .imagenesSistemas{
     border: 5px solid rgb(32, 32, 32);
     margin: 5px;
@@ -298,6 +222,10 @@ h2{
 
 .espacioInferior{
     padding-bottom: 15px;
+}
+
+.espacionInferiorClientes{
+    padding-bottom: 5px;
 }
 
 
@@ -713,23 +641,75 @@ footer div p{
 }
 
 /*Grilla clientes*/
-  .heading {
+.heading {
     font-size: 2.2rem;
     text-transform: capitalize;
     font-weight: bold;
-  }
-  .sub-heading {
+}
+
+.sub-heading {
     font-size: 1.5rem;
-  }
-  .card {
+}
+
+.card {
     background: rgba(255, 255, 255, 0.05);
     color: #fff;
     backdrop-filter: blur(4px);
     box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.5);
     border: 2px solid rgba(255, 255, 255, 0.05);
-  }
-  .card a {
+}
+  
+.card a {
     background: rgba(255, 255, 255, 0.05);
     border-color: rgba(255, 255, 255, 0.05);
-  }
+}
   
+.imagenesClientes{
+    transition: 0.5s;
+}
+
+.imagenesClientes:hover{
+    transform: scale(1.07);
+}
+
+.cardTam{
+    flex: 1 0 24rem;
+	margin: 1rem;
+	box-shadow: 0.3rem 0.4rem 0.4rem rgba(0, 0, 0, 0.4);
+	overflow: hidden;
+}
+
+/*Servicios*/
+
+.fadedfx {
+  background-color: #fe5652;
+  visibility: hidden;
+}
+
+.fadeIn {
+  animation-name: fadeIn;
+  -webkit-animation-name: fadeIn;
+  animation-duration: 1.5s;
+  -webkit-animation-duration: 1.5s;
+  animation-timing-function: ease-in-out;
+  -webkit-animation-timing-function: ease-in-out;
+  visibility: visible !important;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0.0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0.0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
