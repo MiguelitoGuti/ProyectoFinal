@@ -661,7 +661,7 @@ footer div p{
   .cardServicio{
     border: 2px solid rgb(44, 43, 43);
     border-radius: 4px;
-    padding: .5rem;
+    padding: 1rem;
     -webkit-box-shadow: 0 2px 2px rgba(0, 0, 0, 0.15);
     box-shadow: 0 2px 2px rgba(0, 0, 0, 0.15);
     display: flex;
@@ -675,7 +675,7 @@ footer div p{
     fill: #c7c4c4;
     height: 135px;
     opacity: .50;
-    padding: 1.5rem;
+    padding: 0.5rem;
   }
   
   .card-content {
