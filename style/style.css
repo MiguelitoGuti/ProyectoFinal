@@ -481,7 +481,8 @@ footer div p{
     }
 
     .listaComun{
-        margin-left: 10px;    
+        margin-left: 10px;   
+        font-size: 20px; 
     }
 
     .lineaSeparador{
@@ -489,17 +490,12 @@ footer div p{
     }
 
     .parrafos{
-        font-size: 24px;
+        font-size: 20px;
     }
 
     .formatoLabel{
         font-size: 22px;
     }
-
-    .listaComun{
-        font-size: 24px;
-    }
-    
     
 }
 
@@ -548,6 +544,7 @@ footer div p{
 
     .listaComun{
         margin-left: 10px;    
+        font-size: 22px;
     }
 
     .lineaSeparador{
@@ -555,16 +552,13 @@ footer div p{
     }
 
     .parrafos{
-        font-size: 24px;
+        font-size: 22px;
     }
 
     .formatoLabel{
         font-size: 22px;
     }
 
-    .listaComun{
-        font-size: 24px;
-    }
 }
 
 @media screen and (min-width: 1400px) {
@@ -611,7 +605,8 @@ footer div p{
     }   
 
     .listaComun{
-        margin-left: 10px;    
+        margin-left: 10px;  
+        font-size: 22px;  
     }
 
     .lineaSeparador{
@@ -619,41 +614,15 @@ footer div p{
     }
 
     .parrafos{
-        font-size: 24px;
+        font-size: 22px;
     }
 
     .formatoLabel{
         font-size: 22px;
     }
-
-    .listaComun{
-        font-size: 24px;
-    }
 }
 
 /*Grilla clientes*/
-.heading {
-    font-size: 2.2rem;
-    text-transform: capitalize;
-    font-weight: bold;
-}
-
-.sub-heading {
-    font-size: 1.5rem;
-}
-
-.card {
-    background: rgba(255, 255, 255, 0.05);
-    color: #fff;
-    backdrop-filter: blur(4px);
-    box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.5);
-    border: 2px solid rgba(255, 255, 255, 0.05);
-}
-  
-.card a {
-    background: rgba(255, 255, 255, 0.05);
-    border-color: rgba(255, 255, 255, 0.05);
-}
   
 .imagenesClientes{
     transition: 0.5s;
@@ -666,8 +635,8 @@ footer div p{
 .cardTam{
     flex: 1 0 24rem;
 	margin: 1rem;
-	box-shadow: 0.3rem 0.4rem 0.4rem rgba(0, 0, 0, 0.4);
 	overflow: hidden;
+    border: 2px solid rgb(44, 43, 43);
 }
 
 /*Servicios*/
@@ -690,7 +659,7 @@ footer div p{
   }
   
   .cardServicio{
-    border: 2px solid rgba(255, 255, 255, 0.05);
+    border: 2px solid rgb(44, 43, 43);
     border-radius: 4px;
     padding: .5rem;
     -webkit-box-shadow: 0 2px 2px rgba(0, 0, 0, 0.15);
