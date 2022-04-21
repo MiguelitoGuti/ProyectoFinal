@@ -28,6 +28,7 @@ h6{
 h3{
     font-size: 18px;
     font-family: 'Montserrat', sans-serif;
+    color: #e9e8e8;
 }
 
 
@@ -35,23 +36,6 @@ h3{
     padding-top: 10px;
     padding-bottom: 10px;
 }
-
-.cajaServicios{
-    margin: 20px;
-    border-style: solid;
-    border-color:gray;
-    width: 331px;
-    height: 164px;
-    background-color: white;
-    display: inline-block;
-    transition: 5s;
-}
-
-.cajaServicios:hover{
-    animation: animacionServicios 10s;
-}
-
-/*Cambios nuevos*/
 
 .alineacionCentro{
     text-align: center;
@@ -214,6 +198,13 @@ h2{
     color:rgb(236, 229, 229);
     font-size: 18px;
     font-family: 'Fira Sans Condensed', sans-serif;
+}
+
+.colorParrafos{
+    color:rgb(236, 229, 229);
+    font-family: 'Fira Sans Condensed', sans-serif;
+    font-size: 18px;
+    text-align: left;
 }
 
 .alineacionJust{
@@ -680,36 +671,113 @@ footer div p{
 }
 
 /*Servicios*/
-
-.fadedfx {
-  background-color: #fe5652;
-  visibility: hidden;
-}
-
-.fadeIn {
-  animation-name: fadeIn;
-  -webkit-animation-name: fadeIn;
-  animation-duration: 1.5s;
-  -webkit-animation-duration: 1.5s;
-  animation-timing-function: ease-in-out;
-  -webkit-animation-timing-function: ease-in-out;
-  visibility: visible !important;
-}
-
-@keyframes fadeIn {
-  0% {
-    opacity: 0.0;
+  
+  .tituloServicio{
+    color: #dddcdc;
+    text-transform: uppercase;
+    text-align: left;
+    font-family:'Montserrat', sans-serif;
+    padding-top: 20px;
+    font-size: 18px;
   }
-  100% {
-    opacity: 1;
-  }
-}
 
-@-webkit-keyframes fadeIn {
-  0% {
-    opacity: 0.0;
+  
+  .imgClientes{
+    display: block;
+    border: 0;
+    width: 100%;
+    height: auto;
   }
-  100% {
-    opacity: 1;
+  
+  .cardServicio{
+    border: 2px solid rgba(255, 255, 255, 0.05);
+    border-radius: 4px;
+    padding: .5rem;
+    -webkit-box-shadow: 0 2px 2px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.15);
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    position: relative;
+    color: #5d5e5e;
+  } /* li item */
+  
+  .thumbnail img {
+    fill: #c7c4c4;
+    height: 135px;
+    opacity: .50;
+    padding: 1.5rem;
   }
-}
+  
+  .card-content {
+      font-size: .75rem;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      -webkit-box-flex: 1;
+      -ms-flex: 1;
+      flex: 1;
+  }
+  
+  .panel.card-panel .panel-header {
+      background-color: #ffffff;
+      font-size: .75rem;
+      font-weight: 400;
+      height: 25px !important;
+  }
+  
+  .panel.card-panel .panel-content {
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+  }
+  
+  .category {
+    font-size: .75rem;
+    text-transform: uppercase;
+  }
+
+  
+  .category {
+      position: absolute;
+      top: 110px;
+      left: 0;
+      color: #fff;
+      background: #e74c3c;
+      padding: 10px 15px;
+      font-size: 14px;
+      font-weight: 600;
+      text-transform: uppercase;
+  }
+  
+  .category__01 {
+    background-color: #50c6db;
+  }
+  
+  .category__02 {
+    background-color: #5d5e5e;
+  }
+  
+  .category__03 {
+    background-color: #51bb7b;
+  }
+  
+  .category__04 {
+    background-color: #f47820;
+  }
+  
+  .category__05 {
+    background-color: #8350a0;
+  }
+  
+  .post-meta {
+    margin-top: .5rem;
+  }
+  
+  .comments {
+    margin-left: .5rem;
+  }
+
+  
