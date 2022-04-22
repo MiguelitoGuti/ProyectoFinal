@@ -117,6 +117,10 @@ nav{
     background-color: black !important;
 }
 
+.container-fluid{
+    height: 50px;
+}
+
 /*Titulos*/
 h6{
     color:#0F91C3;
@@ -228,6 +232,11 @@ h2{
 	margin: 1rem;
 	overflow: hidden;
     border: 2px solid rgb(44, 43, 43);
+    transition: 1s;
+}
+
+.cardTam:hover{
+    border: 2px solid #0F91C3;
 }
 
 /*Servicios*/
@@ -260,7 +269,12 @@ h2{
     flex-direction: column;
     position: relative;
     color: #5d5e5e;
+    transition: 1s;
 } 
+
+.cardServicio:hover{
+    transform: scale(1.03);
+}
   
 .thumbnail img {
     fill: #c7c4c4;
@@ -428,6 +442,7 @@ footer div p{
     width: 50px;
     height: 70px;
     transition: 1s;
+    
 }
 
 .iconosContacto:hover{
@@ -436,10 +451,14 @@ footer div p{
 
 .iconosRedes{
     transition: 1s;
+    filter: grayscale(100%);
+    width: 32px;
+    height: 32px;
 }
 
 .iconosRedes:hover{
-    transform: scale(1.2);
+    transform: scale(1.105);
+    filter: grayscale(0%);
 }
 
 .paddingFotos{
@@ -527,8 +546,6 @@ footer div p{
         width: 400px;
         height: 168px;
     }
-
-
 }
 
 @media screen and (min-width: 992px) {
@@ -577,10 +594,6 @@ footer div p{
 
     .fondoPrincipal{
         background-image: url("../img/Black4.jpg");
-    }
-
-    #fondoPoliticas{
-        background-image: url("../img/BlackC.jpg");
     }
 
     .listaComun{
