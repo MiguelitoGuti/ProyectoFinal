@@ -3,155 +3,7 @@
     padding: 0;
 }
 
-
-header{
-    position: sticky;
-    top: 0px;
-    background-color:whitesmoke;
-}
-
-nav{
-    display: flex;
-    flex-direction: row;
-    justify-content:space-between;
-    align-items: center;
-}
-
-
-h6{
-    color:#0F91C3;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 20px;
-    
-}
-
-h3{
-    font-size: 18px;
-    font-family: 'Montserrat', sans-serif;
-    color: #e9e8e8;
-}
-
-
-.paddingFotos{
-    padding-top: 10px;
-    padding-bottom: 10px;
-}
-
-.alineacionCentro{
-    text-align: center;
-}
-
-.padding5{
-    padding: 6px;
-}
-
-h2{
-    color:white;
-    font-family:'Montserrat', sans-serif;
-    text-align: center;
-    padding-top: 20px;
-    padding-bottom: 20px;
-}
-
-.tituloPrincipal{
-    color:#0F91C3;
-    font-family:'Montserrat', sans-serif;
-    text-align: center;
-    padding-top: 30px;
-    padding-bottom: 30px;
-}
-
-.alineacionMenu{
-    margin: 0px 25px 0px 25px;
-}
-
-.espacioLogo{
-    padding: 2px;
-}
-
-.nav-link{
-    color:white !important;
-    font-weight: bold;
-}
-
-
-
-.nav-link:hover{
-    color:#0F91C3 !important;
-}
-
-.fondoPrincipal{
-    background-image: url("../img/Black4Tablet.jpg");
-}
-
-.alineacionIzq{
-    text-align: center;
-}
-
-.alineacionDerecha{
-    text-align: center;
-}  
-
-.botonesLinks{
-    color: #0F91C3;
-    border-style: solid;
-    border-color: #0F91C3;
-    padding-left: 50px;
-    padding-right: 50px;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    background-color: #000000;
-    border-radius: 30px;
-    transition: 1s;
-}
-
-.botonesLinks:hover{
-    background-color: #0F91C3;
-    color: white;
-    transform: scale(1.1);
-}
-
-
-.margenesBotones{
-    margin-top: 10px;
-    margin-bottom: 10px; 
-    text-align: center;
-}
-
-.paddingBotones{
-    padding-left: 35px;
-    padding-right: 35px;
-    padding-top: 7px;
-    padding-bottom: 7px;
-}
-
-.imagenesSistemas{
-    border: 5px solid rgb(32, 32, 32);
-    margin: 5px;
-    width: 90px;
-    height: 82px;
-    background-color: rgb(32, 32, 32);
-}
-
-.imagenesApps{
-    margin: 3px;
-    width: 50px;
-    height: 50px;
-    filter: grayscale(100%);
-}
-
-.imagenesApps:hover{
-    filter: grayscale(0%);
-}
-
-.imagenEquipo{
-    width: 300px;
-    height: 126px;
-}
-
-.colorMenu{
-    background-color: black !important;
-}
+/*Generales*/
 
 .cajaPrincSistemas{
     display: flex;
@@ -194,18 +46,36 @@ h2{
     text-align: center;
 }
 
-.formatoLabel{
-    color:rgb(236, 229, 229);
-    font-size: 18px;
-    font-family: 'Fira Sans Condensed', sans-serif;
-}
-
 .colorParrafos{
     color:rgb(236, 229, 229);
     font-family: 'Fira Sans Condensed', sans-serif;
     font-size: 18px;
     text-align: left;
 }
+
+.alineacionCentro{
+    text-align: center;
+}
+
+.padding5{
+    padding: 6px;
+}
+
+.espacioLogo{
+    padding: 2px;
+}
+
+.fondoPrincipal{
+    background-image: url("../img/Black4Tablet.jpg");
+}
+
+.alineacionIzq{
+    text-align: center;
+}
+
+.alineacionDerecha{
+    text-align: center;
+}  
 
 .alineacionJust{
     text-align: justify;
@@ -215,8 +85,276 @@ h2{
     padding-bottom: 15px;
 }
 
+/*Header*/
+
+header{
+    position: sticky;
+    top: 0px;
+    background-color:whitesmoke;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+}
+
+.nav-link{
+    color:white !important;
+    font-weight: bold;
+}
+
+.nav-link:hover{
+    color:#0F91C3 !important;
+}
+
+.alineacionMenu{
+    margin: 0px 25px 0px 25px;
+}
+
+.colorMenu{
+    background-color: black !important;
+}
+
+/*Titulos*/
+h6{
+    color:#0F91C3;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    
+}
+
+h3{
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    color: #e9e8e8;
+}
+
+h2{
+    color:white;
+    font-family:'Montserrat', sans-serif;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.tituloPrincipal{
+    color:#0F91C3;
+    font-family:'Montserrat', sans-serif;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+
+/*Botones*/
+
+.botonesLinks{
+    color: #0F91C3;
+    border-style: solid;
+    border-color: #0F91C3;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: #000000;
+    border-radius: 30px;
+    transition: 1s;
+}
+
+.botonesLinks:hover{
+    background-color: #0F91C3;
+    color: white;
+    transform: scale(1.1);
+}
+
+
+.margenesBotones{
+    margin-top: 10px;
+    margin-bottom: 10px; 
+    text-align: center;
+}
+
+.paddingBotones{
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+
+/*Index*/
+
+.imagenesSistemas{
+    border: 5px solid rgb(32, 32, 32);
+    margin: 5px;
+    width: 90px;
+    height: 82px;
+    background-color: rgb(32, 32, 32);
+}
+
+.imagenesApps{
+    margin: 3px;
+    width: 50px;
+    height: 50px;
+    filter: grayscale(100%);
+}
+
+.imagenesApps:hover{
+    filter: grayscale(0%);
+}
+
+.imagenEquipo{
+    width: 300px;
+    height: 126px;
+}
+
+/*Clientes*/
+
 .espacionInferiorClientes{
     padding-bottom: 5px;
+}
+  
+.imagenesClientes{
+    transition: 0.5s;
+}
+
+.imagenesClientes:hover{
+    transform: scale(1.07);
+}
+
+.cardTam{
+    flex: 1 0 24rem;
+	margin: 1rem;
+	overflow: hidden;
+    border: 2px solid rgb(44, 43, 43);
+}
+
+/*Servicios*/
+  
+.tituloServicio{
+    color: #dddcdc;
+    text-transform: uppercase;
+    text-align: left;
+    font-family:'Montserrat', sans-serif;
+    padding-top: 20px;
+    font-size: 18px;
+  }
+
+  
+.imgServicio{
+    display: block;
+    border: 0;
+    width: 100%;
+    height: auto;
+}
+
+.cardServicio{
+    border: 2px solid rgb(44, 43, 43);
+    border-radius: 4px;
+    padding: 1rem;
+    -webkit-box-shadow: 0 2px 2px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.15);
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    position: relative;
+    color: #5d5e5e;
+} 
+  
+.thumbnail img {
+    fill: #c7c4c4;
+    height: 135px;
+    opacity: .50;
+    padding: 0.5rem;
+}
+  
+.card-content {
+    font-size: .75rem;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+}
+  
+.panel.card-panel .panel-header {
+    background-color: #ffffff;
+    font-size: .75rem;
+    font-weight: 400;
+    height: 25px !important;
+}
+  
+.panel.card-panel .panel-content {
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+}
+  
+.category {
+    font-size: .75rem;
+    text-transform: uppercase;
+}
+
+.category {
+    position: absolute;
+    top: 110px;
+    left: 0;
+    color: #fff;
+    background: #e74c3c;
+    padding: 10px 15px;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+  
+.category__01 {
+    background-color: #50c6db;
+}
+  
+.category__02 {
+    background-color: #5d5e5e;
+}
+  
+.category__03 {
+    background-color: #51bb7b;
+}
+  
+.category__04 {
+    background-color: #f47820;
+}
+  
+.category__05 {
+    background-color: #8350a0;
+}
+  
+/*Nosotros*/
+
+.lineaSeparador{
+    border-style:solid;
+    border-bottom: 1px;
+    border-color:#999999;
+}
+
+.listaComun{
+    list-style-type:square;
+    color: rgb(236, 229, 229);
+    font-size: 18px;
+    font-family: 'Fira Sans Condensed', sans-serif;
+    display: block;
+    margin-left: 0px;    
+    text-align: justify;
+}
+
+/*Contacto*/
+
+.formatoLabel{
+    color:rgb(236, 229, 229);
+    font-size: 18px;
+    font-family: 'Fira Sans Condensed', sans-serif;
 }
 
 
@@ -258,6 +396,7 @@ footer div p{
     margin-bottom: 10px;
 }
 
+
 .tituloBlanco{
     color:white !important;
     font-weight: bold;
@@ -268,12 +407,6 @@ footer div p{
 .linea{
     border-style: solid;
     border-bottom: 3px;
-    border-color:#999999;
-}
-
-.lineaSeparador{
-    border-style:solid;
-    border-bottom: 1px;
     border-color:#999999;
 }
 
@@ -309,6 +442,11 @@ footer div p{
     transform: scale(1.2);
 }
 
+.paddingFotos{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
 @keyframes animacionServicios{
     0%{
         background-image: linear-gradient(45deg, #085078, #85d8ce);
@@ -321,41 +459,6 @@ footer div p{
     }
 }
 
-.cajasFlexInt{
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-}
-
-.colorValores{
-    background-color: rgb(40,43,30);
-}
-
-.cajaValores{
-    margin-top: 10px;
-}
-
-.alineacionCajasValores{
-    display: flex;
-    flex-direction: column;
-    align-items:center;
-    justify-content:space-between;
-}
-
-.listaComun{
-    list-style-type:square;
-    color: rgb(236, 229, 229);
-    font-size: 18px;
-    font-family: 'Fira Sans Condensed', sans-serif;
-    display: block;
-    margin-left: 0px;    
-    text-align: justify;
-}
-
-
-.cajaSubNovedades:hover{
-    transform: scale(1.07);
-}
 
 @keyframes colorBorde{
     0%{
@@ -622,131 +725,3 @@ footer div p{
     }
 }
 
-/*Grilla clientes*/
-  
-.imagenesClientes{
-    transition: 0.5s;
-}
-
-.imagenesClientes:hover{
-    transform: scale(1.07);
-}
-
-.cardTam{
-    flex: 1 0 24rem;
-	margin: 1rem;
-	overflow: hidden;
-    border: 2px solid rgb(44, 43, 43);
-}
-
-/*Servicios*/
-  
-  .tituloServicio{
-    color: #dddcdc;
-    text-transform: uppercase;
-    text-align: left;
-    font-family:'Montserrat', sans-serif;
-    padding-top: 20px;
-    font-size: 18px;
-  }
-
-  
-  .imgClientes{
-    display: block;
-    border: 0;
-    width: 100%;
-    height: auto;
-  }
-  
-  .cardServicio{
-    border: 2px solid rgb(44, 43, 43);
-    border-radius: 4px;
-    padding: 1rem;
-    -webkit-box-shadow: 0 2px 2px rgba(0, 0, 0, 0.15);
-    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.15);
-    display: flex;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    position: relative;
-    color: #5d5e5e;
-  } /* li item */
-  
-  .thumbnail img {
-    fill: #c7c4c4;
-    height: 135px;
-    opacity: .50;
-    padding: 0.5rem;
-  }
-  
-  .card-content {
-      font-size: .75rem;
-      display: flex;
-      -webkit-box-orient: vertical;
-      -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-      flex-direction: column;
-      -webkit-box-flex: 1;
-      -ms-flex: 1;
-      flex: 1;
-  }
-  
-  .panel.card-panel .panel-header {
-      background-color: #ffffff;
-      font-size: .75rem;
-      font-weight: 400;
-      height: 25px !important;
-  }
-  
-  .panel.card-panel .panel-content {
-    -webkit-box-flex: 1;
-    -ms-flex: 1;
-    flex: 1;
-  }
-  
-  .category {
-    font-size: .75rem;
-    text-transform: uppercase;
-  }
-
-  
-  .category {
-      position: absolute;
-      top: 110px;
-      left: 0;
-      color: #fff;
-      background: #e74c3c;
-      padding: 10px 15px;
-      font-size: 14px;
-      font-weight: 600;
-      text-transform: uppercase;
-  }
-  
-  .category__01 {
-    background-color: #50c6db;
-  }
-  
-  .category__02 {
-    background-color: #5d5e5e;
-  }
-  
-  .category__03 {
-    background-color: #51bb7b;
-  }
-  
-  .category__04 {
-    background-color: #f47820;
-  }
-  
-  .category__05 {
-    background-color: #8350a0;
-  }
-  
-  .post-meta {
-    margin-top: .5rem;
-  }
-  
-  .comments {
-    margin-left: .5rem;
-  }
-
-  
