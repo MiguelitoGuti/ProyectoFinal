@@ -119,6 +119,10 @@ nav{
     background-color: black !important;
 }
 
+.current{
+    border-bottom-style:solid;
+}
+
 /*Titulos*/
 h6{
     color:#0F91C3;
