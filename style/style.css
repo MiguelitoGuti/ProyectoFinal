@@ -275,7 +275,7 @@ h2{
 }
   
 .thumbnail img {
-    height: 135px;
+    height: 180px;
     padding: 0.5rem;
 }
   
@@ -311,7 +311,7 @@ h2{
 
 .category {
     position: absolute;
-    top: 110px;
+    top: 155px;
     left: 0;
     color: #fff;
     background: #e74c3c;
