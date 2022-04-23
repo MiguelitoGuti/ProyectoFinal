@@ -40,15 +40,15 @@
 
 .parrafos{
     padding-bottom: 10px;
-    color:rgb(236, 229, 229);
+    color:rgb(196, 190, 190);
     font-size: 18px;
-    font-family: 'Fira Sans Condensed', sans-serif;
+    font-family:'Roboto', sans-serif;
     text-align: center;
 }
 
 .colorParrafos{
-    color:rgb(236, 229, 229);
-    font-family: 'Fira Sans Condensed', sans-serif;
+    color:rgb(196, 190, 190);
+    font-family: 'Roboto', sans-serif;
     font-size: 18px;
     text-align: left;
 }
@@ -351,9 +351,9 @@ h2{
 
 .listaComun{
     list-style-type:square;
-    color: rgb(236, 229, 229);
+    color: rgb(196, 190, 190);
     font-size: 18px;
-    font-family: 'Fira Sans Condensed', sans-serif;
+    font-family: 'Roboto', sans-serif;
     display: block;
     margin-left: 0px;    
     text-align: justify;
@@ -362,9 +362,9 @@ h2{
 /*Contacto*/
 
 .formatoLabel{
-    color:rgb(236, 229, 229);
+    color:rgb(196, 190, 190);
     font-size: 18px;
-    font-family: 'Fira Sans Condensed', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 
