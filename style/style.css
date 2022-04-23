@@ -275,9 +275,7 @@ h2{
 }
   
 .thumbnail img {
-    fill: #c7c4c4;
     height: 135px;
-    opacity: .50;
     padding: 0.5rem;
 }
   
