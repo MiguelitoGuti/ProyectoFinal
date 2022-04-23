@@ -120,7 +120,7 @@ nav{
 }
 
 .current{
-    border-bottom-style:solid;
+    color:#0F91C3;
 }
 
 /*Titulos*/
@@ -612,6 +612,10 @@ footer div p{
     .formatoLabel{
         font-size: 22px;
     }
+
+    .current{
+        border-bottom-style:solid;
+    }
     
 }
 
@@ -675,6 +679,10 @@ footer div p{
         font-size: 22px;
     }
 
+    .current{
+        border-bottom-style:solid;
+    }
+
 }
 
 @media screen and (min-width: 1400px) {
@@ -735,6 +743,10 @@ footer div p{
 
     .formatoLabel{
         font-size: 22px;
+    }
+
+    .current{
+        border-bottom-style:solid;
     }
 }
 
