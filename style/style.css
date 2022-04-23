@@ -215,6 +215,11 @@ h2{
     height: 126px;
 }
 
+.imagenHospital{
+    width: 300px;
+    height: 246px;
+}
+
 /*Clientes*/
 
 .espacionInferiorClientes{
@@ -518,6 +523,11 @@ footer div p{
         height: 147px;
     }
 
+    .imagenHospital{
+        width: 350px;
+        height: 287px;
+    }
+
 
 }
 
@@ -545,6 +555,11 @@ footer div p{
     .imagenEquipo{
         width: 400px;
         height: 168px;
+    }
+
+    .imagenHospital{
+        width: 400px;
+        height: 328px;
     }
 }
 
@@ -590,6 +605,11 @@ footer div p{
     .imagenEquipo{
         width: 440px;
         height: 185px;
+    }
+
+    .imagenHospital{
+        width: 440px;
+        height: 360px;
     }
 
     .fondoPrincipal{
@@ -658,6 +678,11 @@ footer div p{
         height: 228px;
     }
 
+    .imagenHospital{
+        width: 500px;
+        height: 410px;
+    }
+
     .fondoPrincipal{
         background-image: url("../img/Black4.jpg");
     }   
@@ -722,6 +747,11 @@ footer div p{
     .imagenEquipo{
         width: 540px;
         height: 228px;
+    }
+
+    .imagenHospital{
+        width: 500px;
+        height: 410px;
     }
 
     .fondoPrincipal{
