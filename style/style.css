@@ -63,6 +63,8 @@
 
 .espacioLogo{
     padding: 2px;
+    width: 110px;
+    height: 51px;
 }
 
 .fondoPrincipal{
@@ -115,10 +117,6 @@ nav{
 
 .colorMenu{
     background-color: black !important;
-}
-
-.container-fluid{
-    height: 50px;
 }
 
 /*Titulos*/
